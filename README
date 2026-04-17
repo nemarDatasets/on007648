@@ -8,7 +8,7 @@ marion.brickwedde@charite.de, ORCID: https://orcid.org/0000-0002-3461-038X
 
 #Project Name
 
-"CrossModal EEG Study"
+"CrossModal Study"
 
 ##Task
 
@@ -102,5 +102,6 @@ sub-01 aborted the experiment.
 sub-17 did not perform above chance level.
 Both Participants were exlucded from the experiment.
 
-
+Acquisition dates were anonymised (01.01.2019, the year in which the study was recorded).
+Acquisition time of day is correct.
 
