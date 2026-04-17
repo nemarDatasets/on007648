@@ -1,0 +1,18 @@
+{
+    "CapManufacturer":  "ANTneuro",
+    "CapManufacturersModelName":  "Waveguard original",
+    "EEGChannelCount":  63,
+    "EEGGround":  "Fz",
+    "EEGReference":  "Cpz",
+    "EOGChannelCount":  1,
+    "EpochLength":  6,
+    "InstitutionAddress":  "Birmingham B15 2TT, United Kingdom",
+    "InstitutionName":  "Birmingham University",
+    "InstitutionalDepartmentName":  "Center for Human Brain Health, School of Psychology",
+    "PowerLineFrequency":  50,
+    "RecordingDuration":  2790,
+    "SamplingFrequency":  500,
+    "TaskDescription":  "CrossModal target differentiation task; see https://doi.org/10.7554/eLife.106050.3 for detailed task description",
+    "TaskName":  "CrossModal",
+    "SoftwareFilters":  "n/a"
+}
