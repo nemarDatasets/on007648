@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CrossModal Study",
-  "description": "The CrossModal Study is an EEG dataset investigating how the brain prepares for and discriminates targets across auditory and visual modalities. Participants received cues indicating the target modality (auditory, visual, or non-specific) followed by a 3-second preparation interval with frequency-tagged visual stimulation (36 Hz) and amplitude-modulated auditory stimulation (40 Hz), after which they discriminated one of three targets in the cued or uncued modality. This dataset provides insights into alpha oscillations, target preparation mechanisms, and cross-modal attention processes.",
-  "methods_description": "EEG data were recorded from healthy control participants performing a cross-modal target discrimination task. The experimental design included six conditions: non-specific cues with auditory or visual targets, auditory cues with auditory targets (with and without visual distractors), and visual cues with visual targets (with and without auditory distractors). Stimuli included frequency-tagged visual fixation crosses (36 Hz), amplitude-modulated tones (40 Hz), Gabor patches, and tones at three pitch levels. Participants responded using arrow keys. One additional EOG channel monitored eye activity. Data were acquired at Birmingham University, United Kingdom.",
+  "description": "The CrossModal Study is an EEG dataset investigating how the brain prepares for and discriminates targets across sensory modalities. Participants received cues to prepare for auditory, visual, or non-specific targets, followed by a 3-second interval with frequency-tagged visual stimulation (36 Hz) and amplitude-modulated auditory stimulation (40 Hz). Targets were either Gabor patches or tones, with cross-modal distractors presented in cued conditions. The dataset comprises 28 experimental blocks per participant and includes EOG recordings to monitor eye activity.",
+  "methods_description": "EEG data were collected from healthy control participants with normal or corrected-to-normal vision and no history of psychiatric or neurological illness. The experimental protocol involved six randomly ordered and balanced conditions combining cue type (auditory, visual, non-specific) with target modality and distractor presence. Participants performed target discrimination tasks using keyboard responses. One additional EOG channel was acquired to monitor eye activity. Data were collected at Birmingham University, United Kingdom.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -68,19 +68,16 @@
       "term": "alpha oscillations"
     },
     {
-      "term": "attention"
-    },
-    {
-      "term": "cross-modal perception"
-    },
-    {
-      "term": "target discrimination"
+      "term": "cross-modal attention"
     },
     {
       "term": "frequency tagging"
     },
     {
-      "term": "auditory-visual integration"
+      "term": "target discrimination"
+    },
+    {
+      "term": "sensory preparation"
     }
   ],
   "related_identifiers": [
