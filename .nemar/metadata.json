@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CrossModal Study",
+  "description": "The CrossModal Study is an EEG dataset investigating how the brain prepares for and discriminates targets across auditory and visual modalities. Participants received cues indicating the target modality (auditory, visual, or non-specific) followed by a 3-second preparation interval with frequency-tagged visual stimulation (36 Hz) and amplitude-modulated auditory stimulation (40 Hz), after which they discriminated one of three targets in the cued or uncued modality. This dataset provides insights into alpha oscillations, target preparation mechanisms, and cross-modal attention processes.",
+  "methods_description": "EEG data were recorded from healthy control participants performing a cross-modal target discrimination task. The experimental design included six conditions: non-specific cues with auditory or visual targets, auditory cues with auditory targets (with and without visual distractors), and visual cues with visual targets (with and without auditory distractors). Stimuli included frequency-tagged visual fixation crosses (36 Hz), amplitude-modulated tones (40 Hz), Gabor patches, and tones at three pitch levels. Participants responded using arrow keys. One additional EOG channel monitored eye activity. Data were acquired at Birmingham University, United Kingdom.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -58,60 +60,6 @@
       ]
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007648.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "10.7554/eLife.106050.3",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007648",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007648",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Facebook Oculus"
-    },
-    {
-      "funder_name": "BBSRC",
-      "award_number": "BB/R018723/1"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".pdf",
-    ".png",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".wav"
-  ],
-  "description": "The CrossModal Study is an EEG dataset investigating attentional preparation and target discrimination across auditory and visual modalities. Participants received cues to prepare for targets in either auditory or visual domains, with a 3-second preparation interval featuring frequency-tagged visual stimuli (36 Hz) and amplitude-modulated auditory stimuli (40 Hz). The dataset captures neural oscillations, particularly alpha activity, during cross-modal attention and target preparation tasks with systematic manipulation of cue validity and distractor presence.",
-  "methods_description": "EEG data were recorded during a cross-modal target discrimination task with six experimental conditions combining auditory/visual cues and targets with varying distractor presence. Participants performed 28 blocks of trials following practice, with targets requiring discrimination via keyboard response. An additional EOG channel monitored eye activity. Data were acquired at Birmingham University, UK, and processed using FieldTrip (version 20251106) for BIDS conversion.",
   "keywords": [
     {
       "term": "EEG"
@@ -135,5 +83,58 @@
       "term": "auditory-visual integration"
     }
   ],
-  "source_hash": "aa3c3aa07cc53f4f7e2593cd4df09dc8c6bd92c44fd6e280f7ea5455e67c4b57"
+  "related_identifiers": [
+    {
+      "identifier": "10.7554/eLife.106050.3",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007648.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Facebook Oculus"
+    },
+    {
+      "funder_name": "BBSRC",
+      "award_number": "BB/R018723/1"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "7.7 GB (79 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".pdf",
+    ".png",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".wav",
+    ".yml"
+  ],
+  "source_hash": "43df5b732cbc14542439f603990e20c07a79438654098853ddc006c43d0eec80"
 }
