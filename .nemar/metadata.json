@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CrossModal Study",
-  "description": "The CrossModal Study is an EEG dataset investigating how the brain prepares for and discriminates targets across sensory modalities. Participants received cues to prepare for auditory, visual, or non-specific targets, followed by a 3-second interval with frequency-tagged visual stimulation (36 Hz) and amplitude-modulated auditory stimulation (40 Hz). Targets were either Gabor patches or tones, with cross-modal distractors presented in cued conditions. The dataset comprises 28 experimental blocks per participant and includes EOG recordings to monitor eye activity.",
-  "methods_description": "EEG data were collected from healthy control participants with normal or corrected-to-normal vision and no history of psychiatric or neurological illness. The experimental protocol involved six randomly ordered and balanced conditions combining cue type (auditory, visual, non-specific) with target modality and distractor presence. Participants performed target discrimination tasks using keyboard responses. One additional EOG channel was acquired to monitor eye activity. Data were collected at Birmingham University, United Kingdom.",
+  "description": "This dataset contains EEG recordings from a crossmodal target-discrimination study investigating attentional preparation and alpha oscillations. Participants were cued to attend to auditory, visual, or non-specific targets, with frequency-tagged stimuli (36 Hz visual, 40 Hz auditory) presented during a preparatory interval preceding target onset. The study examines how cross-modal attention and target expectation modulate neural oscillatory activity and behavioral performance.",
+  "methods_description": "EEG was recorded from healthy adult participants performing a cued target-discrimination task with auditory and visual targets and distractors. An additional EOG channel was used to monitor eye activity. During the cue-target interval, a frequency-tagged fixation cross (36 Hz) and an amplitude-modulated tone (40 Hz) were presented. Participants indicated target identity via keyboard arrow presses across 28 experimental blocks. Two participants were excluded due to task abortion or below-chance performance. Data were collected at the University of Birmingham, United Kingdom.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -65,26 +65,28 @@
       "term": "EEG"
     },
     {
-      "term": "alpha oscillations"
+      "term": "Alpha Rhythm",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000513"
     },
     {
-      "term": "cross-modal attention"
+      "term": "crossmodal attention"
     },
     {
-      "term": "frequency tagging"
+      "term": "frequency-tagging"
     },
     {
       "term": "target discrimination"
     },
     {
-      "term": "sensory preparation"
+      "term": "target preparation"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.7554/eLife.106050.3",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on007648",
@@ -100,6 +102,11 @@
       "identifier": "10.18112/openneuro.ds007648.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.106050.1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
