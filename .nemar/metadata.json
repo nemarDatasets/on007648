@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CrossModal Study",
-  "description": "This dataset contains EEG recordings from a crossmodal target-discrimination study investigating attentional preparation and alpha oscillations. Participants were cued to attend to auditory, visual, or non-specific targets, with frequency-tagged stimuli (36 Hz visual, 40 Hz auditory) presented during a preparatory interval preceding target onset. The study examines how cross-modal attention and target expectation modulate neural oscillatory activity and behavioral performance.",
-  "methods_description": "EEG was recorded from healthy adult participants performing a cued target-discrimination task with auditory and visual targets and distractors. An additional EOG channel was used to monitor eye activity. During the cue-target interval, a frequency-tagged fixation cross (36 Hz) and an amplitude-modulated tone (40 Hz) were presented. Participants indicated target identity via keyboard arrow presses across 28 experimental blocks. Two participants were excluded due to task abortion or below-chance performance. Data were collected at the University of Birmingham, United Kingdom.",
+  "description": "EEG dataset from a cross-modal cueing study in which participants were cued to prepare for an auditory, visual, or non-specific target. A 3-second task-irrelevant delay followed the cue, during which a fixation cross was frequency-tagged at 36 Hz and a 40 Hz amplitude-modulated tone was played. Participants discriminated one of three gabor-patch or tone targets, sometimes with a distractor from the uncued modality. The dataset supports investigation of alpha oscillations and target preparation in cross-modal attention.",
+  "methods_description": "Healthy participants with normal or corrected-to-normal vision performed a cued target-discrimination task with six randomized, balanced conditions (non-specific, auditory, or visual cue, with or without a distractor) across 28 blocks after 36 practice trials. EEG was recorded with an additional EOG channel. Recordings took place at the University of Birmingham, UK. Participants responded with arrow keys to identify tone pitch or gabor-patch orientation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -65,21 +65,21 @@
       "term": "EEG"
     },
     {
-      "term": "Alpha Rhythm",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000513"
+      "term": "alpha oscillations"
     },
     {
-      "term": "crossmodal attention"
+      "term": "frequency tagging"
     },
     {
-      "term": "frequency-tagging"
-    },
-    {
-      "term": "target discrimination"
+      "term": "cross-modal attention"
     },
     {
       "term": "target preparation"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     }
   ],
   "related_identifiers": [
@@ -106,7 +106,7 @@
     {
       "identifier": "10.7554/eLife.106050.1",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -124,7 +124,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.7 GB (79 files)"
+    "7.18 GB (79 files)"
   ],
   "formats": [
     ".eeg",
